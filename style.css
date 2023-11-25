@@ -1,0 +1,41 @@
+#body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/009/925/084/original/cute-pastel-purple-checkers-gingham-plaid-aesthetic-checkerboard-pattern-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-for-your-design-vector.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Patrick Hand', cursive;
+}
+
+#sketchIdentify {
+    float: right;
+    margin-right: 750px;
+}
+
+#title {
+    display: inline;
+    margin-left: 850px;
+}
+
+.button {
+    background-color: #9e8ed2;
+    border-radius: 25px;
+}
+
+canvas {
+    animation-name: border;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border {
+    from {
+        box-shadow: 0px 0px 5px #9e8ed2;
+    }
+
+    to {
+        box-shadow: 0px 0px 5px white;
+    }
+}
